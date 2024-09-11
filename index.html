@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <title>游戏加速器</title>
+<div class="gradient-border" id="box">恭喜🌿 <br>ios半火<br>端口验证成功<br>记得卡注册开启半火功能或美化哦<br>不要穿烟会演才能长久<br><div class="download-button">
+      <a href="待定" rel="noopener noreferrer">
+        <button>打开
+        吃鸡</button>
+      </a>
+    </div>
+</div>
+<style>
+    html, body {
+      height: 100%;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      background: #1D1F20;
+    }
+    #box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 800px;
+      height: 600px;
+      color: white;
+      font-family: 'Raleway';
+      font-size: 2.5rem;
+    }
+    .gradient-border {
+      --borderWidth: 3px;
+      background: #1D1F20;
+      position: relative;
+      border-radius: var(--borderWidth);
+    }
+    .gradient-border:after {
+      content: '';
+      position: absolute;
+      top: calc(-1 * var(--borderWidth));
+      left: calc(-1 * var(--borderWidth));
+      height: calc(100% + var(--borderWidth) * 2);
+      width: calc(100% + var(--borderWidth) * 2);
+      background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+      border-radius: calc(2 * var(--borderWidth));
+      z-index: -1;
+      animation: animatedgradient 3s ease alternate infinite;
+      background-size: 300% 300%;
+    }
+    
+    
+    @keyframes animatedgradient {
+    	0% {
+    		background-position: 0% 50%;
+    	}
+    	50% {
+    		background-position: 100% 50%;
+    	}
+    	100% {
+    		background-position: 0% 50%;
+    	}
+    }
+    .download-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .download-button a {
+      width: 80%;
+      text-decoration: none;
+    }
+
+    .download-button button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      font-size: 20pt;
+      border: none;
+      border-radius: 5px;
+      background-color: #4c8baf;
+      color: white;
+      cursor: pointer;
+      font-family: ZITI, sans-serif;
+    }
+
+    .download-button button:hover {
+      background-color: #4c8baf;
+    }
+</style>
